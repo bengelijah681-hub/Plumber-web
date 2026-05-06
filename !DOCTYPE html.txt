@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plombier237 - Emergency Plumber Yaoundé</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('hero.jpg');
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 25px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn.whatsapp {
+    background: #25D366;
+}
+
+.section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.sticky {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>24/7 Emergency Plumber in Yaoundé</h1>
+    <p>Fast, Reliable, Professional – 20+ Years Experience</p>
+
+    <a href="tel:+237653831784" class="btn">Call Now</a>
+    <a href="https://wa.me/237653831784" class="btn whatsapp">WhatsApp</a>
+</header>
+
+<section class="section">
+    <h2>Book a Plumber</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="tel" placeholder="Phone Number">
+
+        <select>
+            <option>Leak Repair</option>
+            <option>Pipe Unblocking</option>
+            <option>Installation</option>
+            <option>Emergency</option>
+        </select>
+
+        <input type="text" placeholder="Location">
+        <textarea placeholder="Describe your problem"></textarea>
+
+        <button class="btn">Request Service</button>
+    </form>
+</section>
+
+<section class="section">
+    <h2>Our Services</h2>
+
+    <div class="services">
+        <div class="card">Leak Detection & Repair</div>
+        <div class="card">Pipe Unblocking</div>
+        <div class="card">Sanitary Installation</div>
+        <div class="card">Emergency Plumbing</div>
+        <div class="card">Residential & Commercial</div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>What Customers Say</h2>
+
+    <div class="card">
+        ⭐⭐⭐⭐⭐ <br>
+        “They arrived fast and fixed everything perfectly.”
+    </div>
+
+    <div class="card">
+        ⭐⭐⭐⭐⭐ <br>
+        “Very professional and affordable service.”
+    </div>
+</section>
+
+<section class="section">
+    <h2>About Us</h2>
+    <p>
+        With over 20 years of experience, Plombier237 is a trusted plumbing service
+        in Yaoundé. We provide fast, clean, and reliable solutions for homes and businesses.
+        Our technicians are available 24/7 across Bastos, Omnisport, Nkoabang, and beyond.
+    </p>
+</section>
+
+<section class="section">
+    <h2>Need Help Now?</h2>
+    <a href="tel:+237653831784" class="btn">Call Now</a>
+    <a href="https://wa.me/237653831784" class="btn whatsapp">WhatsApp Now</a>
+</section>
+
+<footer>
+    <p>📞 +237 653 83 17 84</p>
+    <p>Available 24/7 | Yaoundé, Cameroon</p>
+</footer>
+
+<div class="sticky">
+    <a href="tel:+237653831784" class="btn">Call</a>
+</div>
+
+</body>
+</html>
